@@ -1,0 +1,148 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background-image: linear-gradient(#293238, #222)
+}
+
+h1{
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 42px;
+    color: deeppink;
+} 
+
+h2{
+    margin-top: 0;
+    font-size: 21px;
+}
+#close-btn {
+    color: whitesmoke;
+    background-color: #141e20;
+    padding: 3px 15px 8px 15px;
+    border-radius: 50%;
+    font-size: 25px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #344549;
+    margin-left: auto;
+    margin-bottom: 20px;
+    cursor: pointer;
+} 
+#close-btn:hover,
+#close-btn:focus{
+    color: red;
+}
+#close-btn:disabled {
+    color: whitesmoke;
+    opacity: 0.2;
+    cursor: not-allowed;
+}
+.intro {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+}
+.paywall-heading{
+    font-size: 25px;
+    margin-top: 0;
+}
+
+main, header{
+    width: 400px;
+    margin: 0 auto;
+}
+
+header{
+    text-align: center;
+    padding: 10px 0;
+}
+
+article{
+    height: 150px;
+    padding: 10px 25px;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+    color: #222;
+    line-height: 24px;
+    border-radius: 5px; 
+}
+
+.pop-up{
+    background-image: linear-gradient(#1f292b, #222);
+    color: whitesmoke;
+    width: 280px;
+    height: 350px;
+    padding: 20px 35px 45px 35px; 
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 1px #666;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: none;
+}
+
+a{
+    color: rgb(161, 27, 173);
+}
+
+.read-more{
+    color: deeppink;
+}
+form {
+    text-align: center;
+}
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 16px;
+    margin: 4px 0;
+    border: none;
+    outline: 0;
+    border-radius: 2px;
+    font-size: 13px;
+}
+input[type="text"] {
+    margin-top: 16px;
+}
+.modal-btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    margin-top: 10px;
+}
+.modal-btn-container-reverse {
+    flex-direction: row-reverse;
+}
+
+button {
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    font-weight: 600;
+}
+
+.fade-away {
+    background-color: #252525;
+    
+}
+.article-link {
+    color: #1f292b;
+}
+.modal-inner-loading {
+    text-align: center;
+}
+.modal-display-name {
+    color: purple;
+    font-size: 22px;
+}
+.idiot-gif {
+    overflow: hidden;
+}
+.idiot-gif img {
+    width: 100%;
+    height: 200px;
+}
